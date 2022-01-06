@@ -1,10 +1,27 @@
 @font-face {
-    font-family: "Yellowtail";
-    src: url("../media/Font/Yellowtail-Regular.ttf") format("truetype")
+    font-family: "Bebas";
+    src: url("../media/Font/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype")
    }
    @font-face {
-    font-family: "Cabin";
-    src: url("../media/Font/Cabin-VariableFont.ttf") format("truetype")
+    font-family: "Montserrat";
+    src: url("../media/Font/Montserrat/Montserrat-Black.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-BlackItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Bold.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-BoldItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-ExtraBold.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-ExtraBoldItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-ExtraLight.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-ExtraLightItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Italic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Light.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-LightItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Medium.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-MediumItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Regular.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-SemiBold.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-SemiBoldItalic.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-Thin.ttf") format("truetype"),
+     url("../media/Font/Montserrat/Montserrat-ThinItalic.ttf") format("truetype"),
    }
 body{
     background-color: lightgray;
@@ -15,7 +32,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: "Yellowtail", serif;
+    font-family: "Bebas", serif;
 }
 
 #logo {
@@ -26,6 +43,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 a:visited{ 
     text-decoration: none; 
@@ -41,7 +59,7 @@ a:hover{
 }
 
 #presentation{
-    font-family: "Cabin", serif;
+    font-family: "Monserrat", black;
     margin-top: 20vh;
     margin-bottom: 20vh;
     font-size: 150%;
@@ -82,7 +100,7 @@ a:hover{
 }
 
 footer{
-    font-family: "Yellowtail", serif;
+    font-family: "Bebas", serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
