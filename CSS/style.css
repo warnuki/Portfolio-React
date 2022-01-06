@@ -103,7 +103,10 @@ footer{
     font-family: "Bebas", serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+}
+#idflex{
+    position: absolute;
     bottom: 0;
 }
 
@@ -112,3 +115,4 @@ footer{
     justify-content: space-around;
     gap: 1vw;
 }
+/* faire une page avec que du grid*/
