@@ -31,7 +31,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: "Bebas", serif;
 }
 
@@ -103,7 +103,7 @@ footer{
     font-family: "Bebas", serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-between; 
     bottom: 0;
 }
 
